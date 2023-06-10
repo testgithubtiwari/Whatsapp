@@ -11,7 +11,6 @@ import android.view.View;
 
 import com.example.whatsapp.Adapters.ChatAdapter;
 import com.example.whatsapp.databinding.ActivityChatDetailBinding;
-import com.example.whatsapp.databinding.ActivityLoginBinding;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
@@ -21,7 +20,6 @@ import com.google.firebase.database.ValueEventListener;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
-import java.util.Date;
 
 public class ChatDetailActivity extends AppCompatActivity {
 
@@ -79,7 +77,7 @@ public class ChatDetailActivity extends AppCompatActivity {
                                         for(DataSnapshot snapshot1:snapshot.getChildren())
                                         {
                                             Message message=snapshot1.getValue(Message.class);
-                                            message.setMessage(snapshot1.getKey());
+                                            message.setMessageId(snapshot1.getKey());
                                             messagesModels.add(message);
                                         }
                                         chatAdapter.notifyDataSetChanged();
@@ -96,7 +94,7 @@ public class ChatDetailActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String message=binding.enterMessage.getText().toString();
                 final Message messageModel=new Message(senderId,message);
-                messageModel.getTimesatmp(new Date().getTime());
+                messageModel.getTimesatmp();
 
                 binding.enterMessage.setText("");
 
