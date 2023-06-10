@@ -23,7 +23,6 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class ChatAdapter extends RecyclerView.Adapter{
-
     ArrayList<Message> messages;
     Context context;
     String recId;
@@ -59,10 +58,8 @@ public class ChatAdapter extends RecyclerView.Adapter{
             return RCEIVER_TYPE_VIEW;
         }
     }
-
-
     @Override
-    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder,int position) {
         holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
@@ -91,21 +88,21 @@ public class ChatAdapter extends RecyclerView.Adapter{
         Message message = messages.get(position);
         if (holder instanceof senderViewHolder) {
             ((senderViewHolder) holder).sendermessage.setText(message.getMessage());
-            Date date = new Date(message.getTimesatmp());
-            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("h:mm a");
-            String strDate = simpleDateFormat.format(date);
-            ((senderViewHolder) holder).sendertime.setText(strDate);
+            ((senderViewHolder) holder).sendermessage.setText(message.getMessage());
+            ((senderViewHolder) holder).sendertime.setText(formatTimestamp(message.getTimesatmp()));
+
 
         } else if (holder instanceof RecieverViewHolder) {
             ((RecieverViewHolder) holder).receivermeaage.setText(message.getMessage());
-            Date date = new Date(message.getTimesatmp());
-            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("h:mm a");
-            String strDate = simpleDateFormat.format(date);
-            ((RecieverViewHolder) holder).receiveTime.setText(strDate);
+            ((RecieverViewHolder) holder).receivermeaage.setText(message.getMessage());
+            ((RecieverViewHolder) holder).receiveTime.setText(formatTimestamp(message.getTimesatmp()));
         }
     }
 
-
+    private String formatTimestamp(Date timestamp) {
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm"); // Customize the date and time format as needed
+        return sdf.format(timestamp);
+    }
 
     @Override
     public int getItemCount() {
@@ -124,7 +121,6 @@ public class ChatAdapter extends RecyclerView.Adapter{
 
         }
     }
-
     public class senderViewHolder extends RecyclerView.ViewHolder{
         TextView sendermessage,sendertime;
 
@@ -133,8 +129,6 @@ public class ChatAdapter extends RecyclerView.Adapter{
 
             sendermessage=itemView.findViewById(R.id.sender_text);
             sendertime=itemView.findViewById(R.id.snedertime);
-
-
         }
     }
 }

@@ -1,14 +1,16 @@
 package com.example.whatsapp.Models;
 
+import java.util.Date;
+
 public class Message {
 
     String uId,message,messageId;
-    Long timesatmp;
+    Date timesatmp;
     public Message() {
 
     }
 
-    public Message(String uId, String message, String messageId, Long timesatmp) {
+    public Message(String uId, String message, String messageId, Date timesatmp) {
         this.uId = uId;
         this.message = message;
         this.messageId = messageId;
@@ -44,11 +46,11 @@ public class Message {
         this.messageId = messageId;
     }
 
-    public Long getTimesatmp() {
+    public Date getTimesatmp() {
         return timesatmp;
     }
 
-    public void setTimesatmp(Long timesatmp) {
+    public void setTimesatmp(Date timesatmp) {
         this.timesatmp = timesatmp;
     }
 }
