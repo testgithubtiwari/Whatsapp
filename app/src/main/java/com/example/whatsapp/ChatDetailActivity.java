@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import com.example.whatsapp.Models.Message;
 import android.view.View;
+import android.widget.Toast;
 
 import com.example.whatsapp.Adapters.ChatAdapter;
 import com.example.whatsapp.databinding.ActivityChatDetailBinding;
@@ -85,7 +86,7 @@ public class ChatDetailActivity extends AppCompatActivity {
 
                                     @Override
                                     public void onCancelled(@NonNull DatabaseError error) {
-
+                                        Toast.makeText(ChatDetailActivity.this, error.getMessage(),Toast.LENGTH_SHORT).show();
                                     }
                                 });
 
