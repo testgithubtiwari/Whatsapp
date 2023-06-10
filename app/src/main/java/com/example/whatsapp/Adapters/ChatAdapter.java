@@ -59,7 +59,7 @@ public class ChatAdapter extends RecyclerView.Adapter{
         }
     }
     @Override
-    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder,int position) {
+    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder,int position){
         holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
