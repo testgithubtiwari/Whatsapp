@@ -9,6 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.whatsapp.ChatDetailActivity;
 import com.example.whatsapp.Models.Message;
 import com.example.whatsapp.R;
 import com.google.firebase.auth.FirebaseAuth;
@@ -19,6 +20,7 @@ public class ChatAdapter extends RecyclerView.Adapter{
 
     ArrayList<Message> messages;
     Context context;
+    String recId;
 
     int SENDER_TYPE_VIEW=1;
     int RCEIVER_TYPE_VIEW=2;
@@ -29,6 +31,13 @@ public class ChatAdapter extends RecyclerView.Adapter{
         this.messages = messages;
         this.context = context;
     }
+
+    public ChatAdapter(ArrayList<Message> messages, Context context, String recId) {
+        this.messages = messages;
+        this.context = context;
+        this.recId = recId;
+    }
+
 
 
     @NonNull

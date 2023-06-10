@@ -5,9 +5,12 @@ public class Message {
     String uId,message,messageId;
     Long timesatmp;
 
+
     public Message() {
 
     }
+
+
 
     public Message(String uId, String message, String messageId, Long timesatmp) {
         this.uId = uId;
@@ -45,7 +48,7 @@ public class Message {
         this.messageId = messageId;
     }
 
-    public Long getTimesatmp() {
+    public Long getTimesatmp(long time) {
         return timesatmp;
     }
 
