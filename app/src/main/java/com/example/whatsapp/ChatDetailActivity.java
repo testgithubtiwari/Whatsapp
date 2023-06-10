@@ -110,7 +110,6 @@ public class ChatDetailActivity extends AppCompatActivity {
                                         .setValue(messageModel).addOnSuccessListener(new OnSuccessListener<Void>() {
                                             @Override
                                             public void onSuccess(Void unused) {
-
                                             }
                                         });
                             }
