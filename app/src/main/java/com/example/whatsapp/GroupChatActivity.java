@@ -71,10 +71,9 @@ public class GroupChatActivity extends AppCompatActivity {
                                 }
                                 chatAdapter.notifyDataSetChanged();
                             }
-
                             @Override
                             public void onCancelled(@NonNull DatabaseError error) {
-
+                                Toast.makeText(GroupChatActivity.this,error.getMessage(), Toast.LENGTH_SHORT).show();
                             }
                         });
 
