@@ -49,7 +49,10 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId())
         {
             case R.id.settings:
-                Toast.makeText(this, "setting is clicked", Toast.LENGTH_SHORT).show();
+                Intent intent2=new Intent(getApplicationContext(),SettingsActivity.class);
+                startActivity(intent2);
+                intent2.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK |
+                        Intent.FLAG_ACTIVITY_NEW_TASK);
                 break;
             case R.id.groupchat:
                  Intent intent=new Intent(getApplicationContext(),GroupChatActivity.class);
