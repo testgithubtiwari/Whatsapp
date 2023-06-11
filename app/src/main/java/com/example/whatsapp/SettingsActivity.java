@@ -170,24 +170,7 @@ public class SettingsActivity extends AppCompatActivity {
         binding.tvinvite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Get the path of the APK file
-                String apkFilePath = getApplicationContext().getPackageCodePath();
-
-                // Create a file object for the APK
-                File apkFile = new File(apkFilePath);
-
-                // Create a share intent
-                Intent intent = new Intent(Intent.ACTION_SEND);
-                intent.setType("application/vnd.android.package-archive");
-                intent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(apkFile));
-
-                // Start the chooser dialog to select a sharing method
-                Intent shareIntent = Intent.createChooser(intent, "Share APK via");
-
-                // Verify that there are apps available to handle the sharing intent
-                if (shareIntent.resolveActivity(getPackageManager()) != null) {
-                    startActivity(shareIntent);
-                }
+                Toast.makeText(SettingsActivity.this, "Still I am working on it!", Toast.LENGTH_SHORT).show();
             }
         });
 
