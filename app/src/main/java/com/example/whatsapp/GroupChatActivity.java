@@ -59,7 +59,7 @@ public class GroupChatActivity extends AppCompatActivity {
         LinearLayoutManager layoutManager=new LinearLayoutManager(this);
         binding.groupchatRecyclerview.setLayoutManager(layoutManager);
 
-        database.getReference().child("Group Chat")
+        database.getReference().child("Group Chats")
                         .addValueEventListener(new ValueEventListener() {
                             @Override
                             public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -71,6 +71,7 @@ public class GroupChatActivity extends AppCompatActivity {
                                 }
                                 chatAdapter.notifyDataSetChanged();
                             }
+
                             @Override
                             public void onCancelled(@NonNull DatabaseError error) {
                                 Toast.makeText(GroupChatActivity.this,error.getMessage(), Toast.LENGTH_SHORT).show();
