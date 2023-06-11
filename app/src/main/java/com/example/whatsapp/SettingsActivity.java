@@ -5,6 +5,8 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
@@ -24,7 +26,9 @@ import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 import com.squareup.picasso.Picasso;
 
+import java.io.File;
 import java.util.HashMap;
+import java.util.List;
 
 public class SettingsActivity extends AppCompatActivity {
 
@@ -110,6 +114,115 @@ public class SettingsActivity extends AppCompatActivity {
                         Toast.makeText(SettingsActivity.this, error.getMessage(), Toast.LENGTH_SHORT).show();
                     }
                 });
+
+
+        binding.tvprivacy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Define the URL of the PDF file on Google Drive
+                String driveUrl = "https://drive.google.com/file/d/12xjzIhoeHaflybkRFBbObotGjuPhqqtQ/view?usp=sharing";
+
+                // Extract the file ID from the URL
+                String fileId = extractFileIdFromUrl(driveUrl);
+
+                // Create an intent to open the PDF file using the Google Drive app
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("https://drive.google.com/file/d/" + fileId));
+                intent.setPackage("com.google.android.apps.docs");
+
+                // Verify that the Google Drive app is installed on the device
+                PackageManager packageManager = getPackageManager();
+                List<ResolveInfo> activities = packageManager.queryIntentActivities(intent, 0);
+                boolean isIntentSafe = activities.size() > 0;
+
+                // Start the activity to open the PDF file if the Google Drive app is installed
+                if (isIntentSafe) {
+                    startActivity(intent);
+                } else {
+                    // Handle the case where the Google Drive app is not installed
+                    Toast.makeText(getApplicationContext(), "Google Drive app not found", Toast.LENGTH_SHORT).show();
+                }
+            }
+
+            private String extractFileIdFromUrl(String driveUrl) {
+                int startIndex = driveUrl.indexOf("/d/") + 3;
+                int endIndex = driveUrl.indexOf("/view");
+                return driveUrl.substring(startIndex, endIndex);
+            }
+        });
+
+
+        binding.tvabout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Define the URL you want to open
+                String url = "https://www.linkedin.com/in/ritiktiwari95/";
+
+                // Create an intent to open the URL
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse(url));
+
+                // Start the activity to open the URL
+                startActivity(intent);
+            }
+        });
+
+        binding.tvinvite.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Get the path of the APK file
+                String apkFilePath = getApplicationContext().getPackageCodePath();
+
+                // Create a file object for the APK
+                File apkFile = new File(apkFilePath);
+
+                // Create a share intent
+                Intent intent = new Intent(Intent.ACTION_SEND);
+                intent.setType("application/vnd.android.package-archive");
+                intent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(apkFile));
+
+                // Start the chooser dialog to select a sharing method
+                Intent shareIntent = Intent.createChooser(intent, "Share APK via");
+
+                // Verify that there are apps available to handle the sharing intent
+                if (shareIntent.resolveActivity(getPackageManager()) != null) {
+                    startActivity(shareIntent);
+                }
+            }
+        });
+
+        binding.tvnotification.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(SettingsActivity.this, "Still I am working on it...", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        binding.tvhelp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Define your email address
+                String emailAddress = "rt936649@gmail.com";
+
+                // Create an intent to send an email
+                Intent intent = new Intent(Intent.ACTION_SENDTO);
+                intent.setData(Uri.parse("mailto:" + emailAddress));
+
+                // Verify that there is an app available to handle the email intent
+                PackageManager packageManager = getPackageManager();
+                List<ResolveInfo> activities = packageManager.queryIntentActivities(intent, 0);
+                boolean isIntentSafe = activities.size() > 0;
+
+                // Start the activity to compose the email if an app is available
+                if (isIntentSafe) {
+                    startActivity(intent);
+                } else {
+                    // Handle the case where no email app is available
+                    Toast.makeText(getApplicationContext(), "No email app found", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
 
     }
 

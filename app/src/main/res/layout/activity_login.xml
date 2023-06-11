@@ -125,9 +125,9 @@
                 android:layout_marginStart="4dp"
                 android:layout_marginLeft="4dp"
                 android:layout_weight="1"
-                android:drawableLeft="@drawable/ic_facebook"
+                android:drawableLeft="@drawable/ic_phone"
                 android:padding="15dp"
-                android:text="Facebook"
+                android:text="Phone"
                 android:textAllCaps="false"
                 android:textColor="@color/black"
                 android:backgroundTint="@color/fb_color"
@@ -136,16 +136,6 @@
 
         </LinearLayout>
 
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="Sign in with Phone"
-            android:textStyle="bold"
-            android:textColor="@color/white"
-            android:id="@+id/phonesign"
-            android:textSize="17sp"/>
 
 
     </LinearLayout>
