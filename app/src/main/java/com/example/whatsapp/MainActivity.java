@@ -52,12 +52,17 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, "setting is clicked", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.groupchat:
-                Toast.makeText(this, "Group chat is clicked", Toast.LENGTH_SHORT).show();
-                break;
+                 Intent intent=new Intent(getApplicationContext(),GroupChatActivity.class);
+                 startActivity(intent);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK |
+                        Intent.FLAG_ACTIVITY_NEW_TASK);
+                 break;
             case R.id.logout:
                 mauth.signOut();
-                Intent intent =new Intent(getApplicationContext(),LoginActivity.class);
-                startActivity(intent);
+                Intent intent1 =new Intent(getApplicationContext(),LoginActivity.class);
+                startActivity(intent1);
+                intent1.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK |
+                        Intent.FLAG_ACTIVITY_NEW_TASK);
                 break;
         }
         return super.onOptionsItemSelected(item);

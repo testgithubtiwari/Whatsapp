@@ -59,7 +59,7 @@ public class ChatAdapter extends RecyclerView.Adapter{
         }
     }
     @Override
-    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder,int position){
+    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, @SuppressLint("RecyclerView") int position){
         holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
@@ -88,21 +88,21 @@ public class ChatAdapter extends RecyclerView.Adapter{
         Message message = messages.get(position);
         if (holder instanceof senderViewHolder) {
             ((senderViewHolder) holder).sendermessage.setText(message.getMessage());
-            ((senderViewHolder) holder).sendermessage.setText(message.getMessage());
-            ((senderViewHolder) holder).sendertime.setText(formatTimestamp(message.getTimesatmp()));
+            Date date=new Date(message.getTimesatmp());
+            SimpleDateFormat  simpleDateFormat=new SimpleDateFormat("h:mm a");
+            String strDate=simpleDateFormat.format(date);
+            ((senderViewHolder)holder).sendertime.setText(strDate);
 
 
         } else if (holder instanceof RecieverViewHolder) {
             ((RecieverViewHolder) holder).receivermeaage.setText(message.getMessage());
-            ((RecieverViewHolder) holder).receivermeaage.setText(message.getMessage());
-            ((RecieverViewHolder) holder).receiveTime.setText(formatTimestamp(message.getTimesatmp()));
+            Date date=new Date(message.getTimesatmp());
+            SimpleDateFormat  simpleDateFormat=new SimpleDateFormat("h:mm a");
+            String strDate=simpleDateFormat.format(date);
+            ((RecieverViewHolder)holder).receiveTime.setText(strDate);
         }
     }
 
-    private String formatTimestamp(Date timestamp) {
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm"); // Customize the date and time format as needed
-        return sdf.format(timestamp);
-    }
 
     @Override
     public int getItemCount() {

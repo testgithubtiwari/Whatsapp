@@ -5,12 +5,12 @@ import java.util.Date;
 public class Message {
 
     String uId,message,messageId;
-    Date timesatmp;
+    Long timesatmp;
     public Message() {
 
     }
 
-    public Message(String uId, String message, String messageId, Date timesatmp) {
+    public Message(String uId, String message, String messageId, Long timesatmp) {
         this.uId = uId;
         this.message = message;
         this.messageId = messageId;
@@ -46,11 +46,11 @@ public class Message {
         this.messageId = messageId;
     }
 
-    public Date getTimesatmp() {
+    public Long getTimesatmp() {
         return timesatmp;
     }
 
-    public void setTimesatmp(Date timesatmp) {
+    public void setTimesatmp(Long timesatmp) {
         this.timesatmp = timesatmp;
     }
 }

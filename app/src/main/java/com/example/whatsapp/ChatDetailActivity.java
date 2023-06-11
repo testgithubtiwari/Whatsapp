@@ -21,6 +21,7 @@ import com.google.firebase.database.ValueEventListener;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
+import java.util.Date;
 
 public class ChatDetailActivity extends AppCompatActivity {
 
@@ -95,7 +96,7 @@ public class ChatDetailActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String message=binding.enterMessage.getText().toString();
                 final Message messageModel=new Message(senderId,message);
-                messageModel.getTimesatmp();
+                messageModel.setTimesatmp(new Date().getTime());
 
                 binding.enterMessage.setText("");
 
