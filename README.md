@@ -59,3 +59,14 @@ http://localhost:3000
 ###### The WhatsApp Clone app is open-source software licensed under the MIT license.
 
 ### Some insights from the app are:
+
+![Screenshot_2023-08-18-21-00-59-351_com example whatsapp](https://github.com/testgithubtiwari/Whatsapp/assets/111584498/9af6df0f-cb8b-4c40-8711-bc3e1682ada5)
+
+![Screenshot_2023-08-18-20-59-18-035_com example whatsapp](https://github.com/testgithubtiwari/Whatsapp/assets/111584498/a4b7e237-efbb-4602-9ddf-7a08bb55f8b2)
+
+
+![Screenshot_2023-08-18-20-58-55-518_com example whatsapp](https://github.com/testgithubtiwari/Whatsapp/assets/111584498/68cd90ce-eecb-4d03-8b6b-9be3d93d050a)
+
+
+
+
