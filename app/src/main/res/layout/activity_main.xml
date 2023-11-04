@@ -29,8 +29,4 @@
         android:id="@+id/viewpager"/>
 
 
-
-
-
-
 </LinearLayout>
