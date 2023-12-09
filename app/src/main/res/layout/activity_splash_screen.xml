@@ -7,12 +7,4 @@
     tools:context=".SplashScreen"
     android:background="@drawable/w1"
     android:gravity="center">
-
-
-
-    
-
-
-
-
 </LinearLayout>
