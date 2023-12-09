@@ -1,4 +1,4 @@
-### WhatsApp Clone
+### Lets Chat
 
 ###### This is a WhatsApp clone app that replicates many of the popular features found in the original WhatsApp application. It allows users to sign in using their Google, mobile, or Facebook accounts and provides a platform for registered users to communicate with each other through chat. The app utilizes Firebase as its backend database.
 
