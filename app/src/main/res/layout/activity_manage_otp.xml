@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManageOTp"
+    android:orientation="vertical"
+    android:background="@drawable/w1"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageview"
+            android:src="@drawable/ic_whatsapp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter OTP"
+                android:ems="10"
+                android:id="@+id/otp_obtained"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:textColorHint="@color/chatbackground"/>
+
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Verify and Sign In"
+            android:id="@+id/btnverifyotp"
+            android:layout_marginTop="20dp"
+            android:padding="15dp"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/design_default_color_secondary_variant"
+            app:cornerRadius="10dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
