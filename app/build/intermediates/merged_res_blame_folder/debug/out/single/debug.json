@@ -1,0 +1,374 @@
+[
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable_videocall.png.flat",
+        "source": "com.example.whatsapp-main-38:/drawable/videocall.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/layout_activity_settings.xml.flat",
+        "source": "com.example.whatsapp-main-38:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/menu_menu.xml.flat",
+        "source": "com.example.whatsapp-main-38:/menu/menu.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-anydpi-v21/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable_bg_sending.xml.flat",
+        "source": "com.example.whatsapp-main-38:/drawable/bg_sending.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/layout_sample_receiver.xml.flat",
+        "source": "com.example.whatsapp-main-38:/layout/sample_receiver.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-ldpi_ic_facebook.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-ldpi/ic_facebook.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-xxhdpi_ic_google.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-xxhdpi/ic_google.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-ldpi_about.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-ldpi/about.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/layout_sample_show_user.xml.flat",
+        "source": "com.example.whatsapp-main-38:/layout/sample_show_user.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.whatsapp-main-38:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable_w2.jpg.flat",
+        "source": "com.example.whatsapp-main-38:/drawable/w2.jpg"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.whatsapp-main-38:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable_invite.png.flat",
+        "source": "com.example.whatsapp-main-38:/drawable/invite.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable_bg_et_message.xml.flat",
+        "source": "com.example.whatsapp-main-38:/drawable/bg_et_message.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable_plus.png.flat",
+        "source": "com.example.whatsapp-main-38:/drawable/plus.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/layout_activity_register.xml.flat",
+        "source": "com.example.whatsapp-main-38:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.whatsapp-main-38:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-mdpi_ic_google.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-mdpi/ic_google.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-hdpi_about.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-hdpi/about.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-xhdpi_ic_phone.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-xhdpi/ic_phone.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/layout_activity_login.xml.flat",
+        "source": "com.example.whatsapp-main-38:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.whatsapp-main-38:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-xxxhdpi_about.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-xxxhdpi/about.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable_leftarrowwhite.png.flat",
+        "source": "com.example.whatsapp-main-38:/drawable/leftarrowwhite.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable_bg_receiver.xml.flat",
+        "source": "com.example.whatsapp-main-38:/drawable/bg_receiver.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/layout_fragment_chats.xml.flat",
+        "source": "com.example.whatsapp-main-38:/layout/fragment_chats.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable_linear_bg.xml.flat",
+        "source": "com.example.whatsapp-main-38:/drawable/linear_bg.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable_avatar3.png.flat",
+        "source": "com.example.whatsapp-main-38:/drawable/avatar3.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable_phone.png.flat",
+        "source": "com.example.whatsapp-main-38:/drawable/phone.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/layout_activity_entrymobile.xml.flat",
+        "source": "com.example.whatsapp-main-38:/layout/activity_entrymobile.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable_avatar.png.flat",
+        "source": "com.example.whatsapp-main-38:/drawable/avatar.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-xhdpi_ic_facebook.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-xhdpi/ic_facebook.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/layout_activity_manage_otp.xml.flat",
+        "source": "com.example.whatsapp-main-38:/layout/activity_manage_otp.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable_call.png.flat",
+        "source": "com.example.whatsapp-main-38:/drawable/call.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-anydpi-v21_about.xml.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-anydpi-v21/about.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.whatsapp-main-38:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-xhdpi_about.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-xhdpi/about.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.whatsapp-main-38:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.whatsapp-main-38:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.whatsapp-main-38:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable_help.png.flat",
+        "source": "com.example.whatsapp-main-38:/drawable/help.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable_privacy.png.flat",
+        "source": "com.example.whatsapp-main-38:/drawable/privacy.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-mdpi_ic_phone.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-mdpi/ic_phone.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.whatsapp-main-38:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-hdpi_ic_facebook.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-hdpi/ic_facebook.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-ldpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/layout_fragment_status.xml.flat",
+        "source": "com.example.whatsapp-main-38:/layout/fragment_status.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-mdpi_about.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-mdpi/about.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable_leftarrow.png.flat",
+        "source": "com.example.whatsapp-main-38:/drawable/leftarrow.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-xxxhdpi_ic_facebook.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-xxxhdpi/ic_facebook.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable_menu.png.flat",
+        "source": "com.example.whatsapp-main-38:/drawable/menu.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable_save_btn_bg.xml.flat",
+        "source": "com.example.whatsapp-main-38:/drawable/save_btn_bg.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-xxxhdpi_ic_google.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-xxxhdpi/ic_google.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-xhdpi_ic_google.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-xhdpi/ic_google.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-ldpi_ic_phone.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-ldpi/ic_phone.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.example.whatsapp-main-38:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/layout_activity_forgot_passwordactivity.xml.flat",
+        "source": "com.example.whatsapp-main-38:/layout/activity_forgot_passwordactivity.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/layout_activity_main.xml.flat",
+        "source": "com.example.whatsapp-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable_w4.png.flat",
+        "source": "com.example.whatsapp-main-38:/drawable/w4.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/xml_backup_rules.xml.flat",
+        "source": "com.example.whatsapp-main-38:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/layout_sample_sender.xml.flat",
+        "source": "com.example.whatsapp-main-38:/layout/sample_sender.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-mdpi_ic_facebook.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-mdpi/ic_facebook.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.whatsapp-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable_send.png.flat",
+        "source": "com.example.whatsapp-main-38:/drawable/send.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-hdpi_ic_google.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-hdpi/ic_google.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-xxhdpi_ic_facebook.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-xxhdpi/ic_facebook.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-anydpi-v24_ic_facebook.xml.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-anydpi-v24/ic_facebook.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.whatsapp-main-38:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-anydpi-v21_ic_phone.xml.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-anydpi-v21/ic_phone.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable_ic_whatsapp.png.flat",
+        "source": "com.example.whatsapp-main-38:/drawable/ic_whatsapp.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/layout_fragment_calls.xml.flat",
+        "source": "com.example.whatsapp-main-38:/layout/fragment_calls.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-ldpi_ic_google.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-ldpi/ic_google.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-anydpi-v21_ic_google.xml.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-anydpi-v21/ic_google.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable_w3.png.flat",
+        "source": "com.example.whatsapp-main-38:/drawable/w3.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable_avatar1.png.flat",
+        "source": "com.example.whatsapp-main-38:/drawable/avatar1.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.whatsapp-main-38:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-xxhdpi_ic_phone.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-xxhdpi/ic_phone.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/layout_activity_splash_screen.xml.flat",
+        "source": "com.example.whatsapp-main-38:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/layout_activity_chat_detail.xml.flat",
+        "source": "com.example.whatsapp-main-38:/layout/activity_chat_detail.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable_notification.png.flat",
+        "source": "com.example.whatsapp-main-38:/drawable/notification.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/layout_activity_group_chat.xml.flat",
+        "source": "com.example.whatsapp-main-38:/layout/activity_group_chat.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-xxhdpi_about.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-xxhdpi/about.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable_w1.jpg.flat",
+        "source": "com.example.whatsapp-main-38:/drawable/w1.jpg"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-hdpi_ic_phone.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-hdpi/ic_phone.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/drawable-xxxhdpi_ic_phone.png.flat",
+        "source": "com.example.whatsapp-pngs-32:/drawable-xxxhdpi/ic_phone.png"
+    },
+    {
+        "merged": "com.example.whatsapp-merged_res-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.whatsapp-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    }
+]

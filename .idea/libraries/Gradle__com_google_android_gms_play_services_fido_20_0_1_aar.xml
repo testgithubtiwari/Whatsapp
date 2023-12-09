@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-fido:20.0.1@aar">
+    <CLASSES>
+      <root url="file://D:/android/caches/transforms-3/8a320fae177f047dbbab10e98034078f/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml" />
+      <root url="jar://D:/android/caches/transforms-3/8a320fae177f047dbbab10e98034078f/transformed/jetified-play-services-fido-20.0.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/android/caches/modules-2/files-2.1/com.google.android.gms/play-services-fido/20.0.1/4dbfe37ddc31190ae72d6718ccac9cb4432dad9d/play-services-fido-20.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
